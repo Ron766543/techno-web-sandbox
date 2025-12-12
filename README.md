@@ -16,5 +16,3 @@ It showcases trial projects, layouts, and components inspired by Techno-Web IT c
 - Build portfolio-ready components  
 - Experiment with modern UI layouts  
 
-## 📸 Preview
-![Techno-web](<../Recording 2025-12-12 163413.gif>)
