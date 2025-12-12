@@ -1,0 +1,205 @@
+p{
+  font-family: "Amarna", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style:italic;
+}
+*{
+  font-family: "Iceland", sans-serif;
+  font-weight: 40000px;
+  font-style: normal;
+}
+
+h1 span, h3 span{
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3, h3, h5, h6 {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.carousel-item img{
+  width: 100%;
+  height: auto;
+  min-height: 250px;
+  object-fit: cover; /* keeps aspect ratio, crops if needed */
+}
+
+/* Responsive carousel heights */
+@media (min-width: 576px) {
+  .carousel-item img {
+    min-height: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-item img {
+    min-height: 500px;
+  }
+}
+/* .d-block{
+max-height: 80vh;
+} */
+
+.accordion-body, strong{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+.accordion-header{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 200;
+}
+
+/* ===== RESPONSIVE FIXES ===== */
+
+/* Reserve space for fixed navbar */
+body {
+  padding-top: 100px;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset for anchor elements with scroll-margin-top */
+#carouselExampleCaptions,
+#aboutsac,
+#ser,
+#team,
+#connect {
+  scroll-margin-top: 120px;
+}
+
+/* Extra space for section headings to prevent hiding */
+#aboutsac,
+#ser,
+#team,
+#connect {
+  display: block;
+  position: relative;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Card responsiveness */
+.card {
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Team member circular images */
+.rounded-circle {
+  object-fit: cover;
+}
+
+/* Ensure images in sections are responsive */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail {
+  max-width: 100%;
+  padding: 0.5rem;
+}
+
+/* Responsive text sizing */
+h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 4vw, 2rem);
+}
+
+h5 {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+}
+
+p {
+  font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+}
+
+/* Navbar responsiveness */
+.navbar {
+  padding: 0.5rem 0.75rem;
+}
+
+.navbar-brand {
+  font-size: clamp(1rem, 4vw, 2rem) !important;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 0.75rem !important;
+  font-size: clamp(0.9rem, 2vw, 1.1rem) !important;
+}
+
+/* Form responsiveness */
+.form-control,
+.form-select {
+  font-size: clamp(0.9rem, 2vw, 1rem);
+}
+
+/* Container and section padding */
+.container {
+  padding: 0 0.75rem;
+}
+
+section {
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  section {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 3rem 1rem;
+  }
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+/* Ensure carousel captions are visible on all sizes */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.75rem !important;
+  border-radius: 0.5rem;
+}
+
+.carousel-caption h5 {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+}
+
+.carousel-caption p {
+  font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+/* Footer responsiveness */
+.bg-primary.text-white {
+  padding: 1rem !important;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
