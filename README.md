@@ -16,3 +16,6 @@ It showcases trial projects, layouts, and components inspired by Techno-Web IT c
 - Build portfolio-ready components  
 - Experiment with modern UI layouts  
 
+## 📸 Preview / Demo
+
+![demoVisual](https://github.com/user-attachments/assets/ac2e6958-f76f-4571-9a28-9fb045a1f06b)
